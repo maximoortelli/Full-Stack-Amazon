@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.18",
     "@heroicons/react": "^1.0.6",
     "@reduxjs/toolkit": "^2.2.1",
     "@tailwindcss/line-clamp": "^0.4.4",

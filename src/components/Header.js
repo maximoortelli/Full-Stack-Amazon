@@ -5,6 +5,7 @@ import {
   SearchIcon,
   ShoppingCartIcon,
 } from "@heroicons/react/outline";
+import Dropdown from "./Dropdown";
 
 function Header() {
   return (
@@ -23,8 +24,10 @@ function Header() {
 
         {/* Search Bar*/}
         <div className="hidden sm:flex items-center h-10 rounded-md flex-grow cursor-pointer bg-yellow-400 hover:bg-yellow-500">
+          <Dropdown className=""/>
           <input
-            className="p-2 h-full w-6 flex-grow flex-shrink rounded-l-md"
+            className="p-2 h-full w-6 flex-grow flex-shrink "
+            placeholder="Search in Amazon"
             type="text"
           />
           <SearchIcon className="h-12 p-4" />
