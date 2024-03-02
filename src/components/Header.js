@@ -27,7 +27,7 @@ function Header() {
           <Dropdown className=""/>
           <input
             className="p-2 h-full w-6 flex-grow flex-shrink "
-            placeholder="Search in Amazon"
+            placeholder="Search Amazon"
             type="text"
           />
           <SearchIcon className="h-12 p-4" />
