@@ -1,13 +1,15 @@
+import Header from "../components/Header";
 import Head from "next/head";
 
 export default function Home() {
   return (
     <div>
       <Head>
-        <title>Amazon 2.0</title>
+        <title>Amazon</title>
       </Head>
 
-      <h1>I ALREADY HAVE THE SITE SET UP</h1>
+      {/* Header */}
+      <Header />
     </div>
   );
 }
