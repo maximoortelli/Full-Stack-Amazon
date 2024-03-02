@@ -11,14 +11,14 @@ function Header() {
   return (
     <header>
       {/* Top Nav*/}
-      <div className="flex items-center bg-amazon_blue gap-5 p-2 flex-grow py-2 ">
+      <div className="flex items-center bg-amazon_blue p-2 flex-grow py-2 ">
         <div className="mt-3 flex items-center flex-grow sm:flex-grow-0">
           <Image
             src="https://links.papareact.com/f90"
-            width={130}
+            width={110}
             height={20}
             objectFit="contain"
-            className="cursor-pointer ml-1"
+            className="cursor-pointer ml-4 mr-6"
           />
         </div>
 
@@ -36,13 +36,13 @@ function Header() {
         {/* Navbar Right*/}
         <div className="text-white flex items-center text-xs space-x-6 mx-6 whitespace-nowrap">
           <div className="link">
-            <p>Hello Maximo Ortelli</p>
+            <p>Hello, Maximo Ortelli</p>
             <p className="font-extrabold md:text-sm">Account & Lists</p>
           </div>
 
           <div className="link">
             <p>Returns</p>
-            <p className="font-extrabold md:text-sm">& Orderds</p>
+            <p className="font-extrabold md:text-sm">& Orders</p>
           </div>
 
           <div className="relative link flex items-center">
