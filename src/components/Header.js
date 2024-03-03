@@ -24,7 +24,7 @@ function Header() {
 
         {/* Search Bar*/}
         <div className="hidden sm:flex items-center h-10 rounded-md flex-grow cursor-pointer bg-yellow-400 hover:bg-yellow-500">
-          <Dropdown className=""/>
+          <Dropdown />
           <input
             className="p-2 h-full w-6 flex-grow flex-shrink "
             placeholder="Search Amazon"
