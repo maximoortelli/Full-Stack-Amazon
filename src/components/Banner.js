@@ -6,27 +6,33 @@ const Banner = () => {
   return (
     <div className="relative">
       {/* Div gradient below for the Banner bottom*/}
-      <div className="
+      <div
+        className="
          absolute w-full h-32 bg-gradient-to-t
-       from-gray-100 to-transparent bottom-0 z-20" />
+       from-gray-200 to-transparent bottom-0 z-20"
+      />
       <Carousel
-         autoplay
-         infiniteLoop
-         showStatus={false}
-         showIndicators={false}
-         showThumbs={false}
-         interval={5000}
+        autoPlay
+        infiniteLoop
+        showStatus={false}
+        showIndicators={false}
+        showThumbs={false}
+        interval={4000}
       >
         <div>
-             <img loading="lazy" src="https://links.papareact.com/gi1" alt="" />
+          <img
+            loading="lazy"
+            src="https://links.papareact.com/gi1"
+            alt=""
+          />
         </div>
 
         <div>
-             <img loading="lazy" src="https://links.papareact.com/6ff" alt="" />
+          <img loading="lazy" src="https://links.papareact.com/6ff" alt="" />
         </div>
 
         <div>
-             <img loading="lazy" src="https://links.papareact.com/7ma" alt="" />
+          <img loading="lazy" src="https://links.papareact.com/7ma" alt="" />
         </div>
       </Carousel>
     </div>
