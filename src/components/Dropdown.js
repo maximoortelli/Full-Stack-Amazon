@@ -20,7 +20,7 @@ function Dropdown() {
   ];
 
   return (
-    <Menu as="div" className="relative inline-block text-left">
+    <Menu as="div" className="relative inline-block text-left z-30">
       <div>
         <Menu.Button className="inline-flex justify-center w-full px-4 py-[10px] text-sm font-medium text-black bg-gray-200 rounded-l-md hover:bg-gray-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">
           {selected}
