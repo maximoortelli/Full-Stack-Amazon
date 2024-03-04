@@ -10,7 +10,7 @@ const Banner = () => {
       <div
         className="
          absolute w-full h-32 bg-gradient-to-t
-       from-gray-200 to-transparent bottom-0 z-20"
+       from-gray-200 to-transparent -bottom-1 z-20"
       />
       <Carousel
         autoPlay
@@ -22,28 +22,35 @@ const Banner = () => {
       >
         <div>
         <video
+            className="lg:my-[-70px]"
             src="/media/primevideo.mp4"
             autoPlay
             loop
             muted
+            
           />
         </div>
+
         <div>
         <img loading="lazy" src="https://links.papareact.com/6ff" alt="" />
           
         </div>
 
         <div>
-             <img
-                 loading="lazy"
-                 src="https://links.papareact.com/gi1"
-                 alt=""
-               />
+        <video
+            className="lg:my-[-170px]"
+            src="/media/video3.mp4"
+            autoPlay
+            loop
+            muted
+          />
         </div>
 
         <div>
-          <img loading="lazy" src="https://links.papareact.com/7ma" alt="" />
+          <img className="lg:my-[-200px]" loading="lazy" src="/media/music4.jpg" alt="" />
         </div>
+
+        
       </Carousel>
     </div>
   );

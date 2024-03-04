@@ -37,7 +37,7 @@ function Product({ id, title, price, description, category, image }) {
           ))}
       </div>
 
-      <p className="text-xs my-2 line-clamp-3">{description}</p>
+      <p className="text-xs my-3 line-clamp-3">{description}</p>
 
       <div className="mb-5 ">
          <NumericFormat value={price} displayType={'text'} prefix={'£'} />
