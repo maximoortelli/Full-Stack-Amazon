@@ -20,7 +20,7 @@ function Product({ id, title, price, description, category, image }) {
   }, []);
 
   return (
-    <div className="relative flex flex-col m-8 bg-white z-30 p-10 rounded-xl hover:scale-105  transition-transform hover:cursor-pointer">
+    <div className="relative flex flex-col m-6 my-10 bg-white z-30 p-10 rounded-xl hover:scale-105  transition-transform hover:cursor-pointer">
       <p className="absolute top-3 right-6 text-xs font-bold italic text-gray-400 ">
         {category}
       </p>

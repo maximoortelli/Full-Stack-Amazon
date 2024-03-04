@@ -7,8 +7,8 @@ function ProductFeed({ products }) {
       className="
        grid bg-gray-200 
        grid-flow-row-dense 
-       sm:grid-cols-1 md:grid-cols-2 
-       lg:grid-cols-3 xl:grid-cols-4
+       sm:grid-cols-2 md:grid-cols-3 
+       lg:grid-cols-3 xl:grid-cols-4 2xl:xl:grid-cols-
        md:-mt-56 mx-auto"
     >
       {products
@@ -26,7 +26,7 @@ function ProductFeed({ products }) {
         ))}
 
       <img
-        className="md:col-span-full"
+        className="md:col-span-full sm:col-span-full lg:col-span-full"
         src="https://links.papareact.com/dyz"
         alt=""
       />
