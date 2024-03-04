@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Product from "./Product";
 
 function ProductFeed({ products }) {

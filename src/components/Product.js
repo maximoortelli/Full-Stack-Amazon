@@ -1,7 +1,9 @@
+/* eslint-disable @next/next/no-img-element */
+/* eslint-disable jsx-a11y/alt-text */
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import { StarIcon } from "@heroicons/react/solid";
-import Currency from "react-currency-formatter";
+import { NumericFormat } from 'react-number-format';
 
 function Product({ id, title, price, description, category, image }) {
   const MAX_RATING = 5;
@@ -18,7 +20,7 @@ function Product({ id, title, price, description, category, image }) {
   }, []);
 
   return (
-    <div className="relative flex flex-col m-5 bg-white z-30 p-10 rounded-xl">
+    <div className="relative flex flex-col m-8 bg-white z-30 p-10 rounded-xl hover:scale-105  transition-transform hover:cursor-pointer">
       <p className="absolute top-3 right-6 text-xs font-bold italic text-gray-400 ">
         {category}
       </p>
@@ -38,7 +40,7 @@ function Product({ id, title, price, description, category, image }) {
       <p className="text-xs my-2 line-clamp-3">{description}</p>
 
       <div className="mb-5 ">
-        <Currency quantity={price} currency="GBP" />
+         <NumericFormat value={price} displayType={'text'} prefix={'£'} />
       </div>
 
       {hasPrime && (
