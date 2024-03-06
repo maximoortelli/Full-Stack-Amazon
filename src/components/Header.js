@@ -6,8 +6,11 @@ import {
   ShoppingCartIcon,
 } from "@heroicons/react/outline";
 import Dropdown from "./Dropdown";
+import { useSession, signIn, signOut } from "next-auth/react";
+
 
 function Header() {
+  const { data: session } = useSession();
   return (
     <header>
       {/* Top Nav*/}
@@ -35,11 +38,10 @@ function Header() {
 
         {/* Navbar Right*/}
         <div className="text-white flex items-center text-xs space-x-6 mx-6 whitespace-nowrap">
-          <div className="link">
-            <p>Hello, Maximo Ortelli</p>
+          <div onClick={!session ? signIn : signOut} className="link">
+            <p>{session ? `Hello, ${session.user.name}` : "Sign In"}</p>
             <p className="font-extrabold md:text-sm">Account & Lists</p>
           </div>
-
           <div className="link">
             <p>Returns</p>
             <p className="font-extrabold md:text-sm">& Orders</p>
@@ -59,19 +61,19 @@ function Header() {
 
       {/* Bottom Nav*/}
       <div className="flex items-center space-x-3 p-2 pl-6 bg-amazon_blue-light text-white text-sm">
-         <p className="link flex items-center">
-           <MenuIcon className="h-6 mr-2" />
-           All
-         </p>
-         <p className="link">Prime Video</p>
-         <p className="link">Amazon Business</p>
-         <p className="link">Today&apos;s Deals</p>
-         <p className="link hidden lg:inline-flex">Electronics</p>
-         <p className="link hidden lg:inline-flex">Food & Grocery</p>
-         <p className="link hidden lg:inline-flex">Prime</p>
-         <p className="link hidden lg:inline-flex">Buy Again</p>
-         <p className="link hidden lg:inline-flex">Shopper Toolkit</p>
-         <p className="link hidden lg:inline-flex">Health & Personal Care</p>
+        <p className="link flex items-center">
+          <MenuIcon className="h-6 mr-2" />
+          All
+        </p>
+        <p className="link">Prime Video</p>
+        <p className="link">Amazon Business</p>
+        <p className="link">Today&apos;s Deals</p>
+        <p className="link hidden lg:inline-flex">Electronics</p>
+        <p className="link hidden lg:inline-flex">Food & Grocery</p>
+        <p className="link hidden lg:inline-flex">Prime</p>
+        <p className="link hidden lg:inline-flex">Buy Again</p>
+        <p className="link hidden lg:inline-flex">Shopper Toolkit</p>
+        <p className="link hidden lg:inline-flex">Health & Personal Care</p>
       </div>
     </header>
   );
