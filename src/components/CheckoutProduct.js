@@ -75,7 +75,7 @@ const CheckoutProduct = ({
       </div>
 
       {/*Right and Remove buttons*/}
-      <div className="flex flex-col space-y-2 my-auto justify-self-center">
+      <div className="flex flex-col space-y-4 my-auto justify-self-center">
         <button className="button mt-auto" onClick={addItemToBasket}>
           Add to Basket
         </button>
