@@ -3,14 +3,34 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import { StarIcon } from "@heroicons/react/solid";
-import { NumericFormat } from 'react-number-format';
+import { NumericFormat } from "react-number-format";
+import { useDispatch } from "react-redux";
+import { addToBasket } from "../slices/basketSlice";
 
 function Product({ id, title, price, description, category, image }) {
+  const dispatch = useDispatch();
+
   const MAX_RATING = 5;
   const MIN_RATING = 1;
 
   const [rating, setRating] = useState(MIN_RATING);
   const [hasPrime, setHasPrime] = useState(false);
+
+  const addItemToBasket = () => {
+    const product = {
+      id,
+      title,
+      price,
+      rating,
+      description,
+      category,
+      image,
+      hasPrime,
+    };
+
+    // Sending the product as an action to the REDUX store... the basket slice
+    dispatch(addToBasket(product));
+  };
 
   useEffect(() => {
     setRating(
@@ -25,7 +45,7 @@ function Product({ id, title, price, description, category, image }) {
         {category}
       </p>
 
-      <Image className="m-auto" src={image} height={0} width={150}/>
+      <Image className="m-auto" src={image} height={0} width={150} />
 
       <h4 className="my-3 line-clamp-1">{title}</h4>
 
@@ -40,7 +60,7 @@ function Product({ id, title, price, description, category, image }) {
       <p className="text-xs my-3 line-clamp-3">{description}</p>
 
       <div className="mb-5 ">
-         <NumericFormat value={price} displayType={'text'} prefix={'£'} />
+        <NumericFormat value={price} displayType={"text"} prefix={"£"} />
       </div>
 
       {hasPrime && (
@@ -53,7 +73,9 @@ function Product({ id, title, price, description, category, image }) {
           <p className="text-xs text-gray-500">Free Next-day Delivery</p>
         </div>
       )}
-      <button className="mt-auto px-10 button">Add to Basket</button>
+      <button onClick={addItemToBasket} className="mt-auto px-10 button">
+        Add to Basket
+      </button>
     </div>
   );
 }
