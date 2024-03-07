@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
+/* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import Image from "next/image";
 import { StarIcon } from "@heroicons/react/solid";
@@ -59,7 +61,7 @@ const CheckoutProduct = ({
         </div>
 
         <p className="text-xs my-2 line-clamp-3">{description}</p>
-        <NumericFormat value={price} displayType={"text"} prefix={"£"} />
+           <NumericFormat value={price} displayType={"text"} prefix={"£"} />
         {hasPrime && (
           <div className="flex items-center space-x-2">
             <img
