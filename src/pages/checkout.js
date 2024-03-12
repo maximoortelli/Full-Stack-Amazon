@@ -26,11 +26,10 @@ function Checkout() {
             src="https://links.papareact.com/ikj"
             width={1020}
             height={250}
-            objectFit="contain"
           />
 
           <div className="flex flex-col p-5 space-y-10 bg-white">
-            <h1 className="text-3xl border-b pb-4">
+            <h1 className="text-3xl border-b pb-4 font-semibold text-center">
               {items.length === 0
                 ? "Your amazon Basket is empty"
                 : "Shopping Basket"}

@@ -48,7 +48,7 @@ function Header() {
             <p>{session ? `Hello, ${session.user.name}` : "Sign In"}</p>
             <p className="font-extrabold md:text-sm">Account & Lists</p>
           </div>
-          <div className="link">
+          <div onClick={() => router.push("/orders")} className="link hidden md:block">
             <p>Returns</p>
             <p className="font-extrabold md:text-sm">& Orders</p>
           </div>
@@ -67,19 +67,13 @@ function Header() {
 
       {/* Bottom Nav*/}
       <div className="flex items-center space-x-3 p-2 pl-6 bg-amazon_blue-light text-white text-sm">
-        <p className="link flex items-center">
-          <MenuIcon className="h-6 mr-2" />
-          All
-        </p>
-        <p className="link">Prime Video</p>
-        <p className="link">Amazon Business</p>
-        <p className="link">Today&apos;s Deals</p>
-        <p className="link hidden lg:inline-flex">Electronics</p>
-        <p className="link hidden lg:inline-flex">Food & Grocery</p>
-        <p className="link hidden lg:inline-flex">Prime</p>
-        <p className="link hidden lg:inline-flex">Buy Again</p>
-        <p className="link hidden lg:inline-flex">Shopper Toolkit</p>
-        <p className="link hidden lg:inline-flex">Health & Personal Care</p>
+        <p className="link" ><a href="https://www.primevideo.com/collection/IncludedwithPrime">Prime Video</a></p>
+        <p className="link"><a href="https://business.amazon.com/">Amazon Business</a></p>
+        <p className="link"><a href="https://www.amazon.com/gp/goldbox">Today&apos;s Deals</a></p>
+        <p className="link hidden lg:inline-flex"><a href="https://www.amazon.com/electronics-store/b?ie=UTF8&node=172282">Electronics</a></p>
+        <p className="link hidden lg:inline-flex"><a href="https://www.amazon.com/s?k=food+and+grocery&ref=nb_sb_ss_ts-doa-p_2_16">Food & Grocery</a></p>
+        <p className="link hidden lg:inline-flex"><a href="https://www.amazon.com/b?ie=UTF8&node=15247183011">Prime</a></p>
+        <p className="link hidden lg:inline-flex"><a href="https://www.amazon.co.uk/health-beauty-haircare-wellbeing-dentalcare-shaving-hairremoval/b?ie=UTF8&node=65801031">Health & Personal Care</a></p>
       </div>
     </header>
   );
