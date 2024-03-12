@@ -6,11 +6,14 @@ import { selectItems, selectTotal } from "../slices/basketSlice";
 import CheckoutProduct from "../components/CheckoutProduct";
 import { NumericFormat } from "react-number-format";
 import { useSession } from "next-auth/react";
+import { PayPalScriptProvider, PayPalButtons } from "@paypal/react-paypal-js";
+import axios from "axios";
 
 function Checkout() {
   const items = useSelector(selectItems);
   const total = useSelector(selectTotal);
   const { data: session } = useSession();
+
   return (
     <div className="bg-gray-200">
       <Header />
@@ -19,14 +22,14 @@ function Checkout() {
         {/* Left */}
         <div className="flex-grow m-5 shadow-sm">
           <Image
+            alt=""
             src="https://links.papareact.com/ikj"
             width={1020}
             height={250}
-            objectFit="contain"
           />
 
           <div className="flex flex-col p-5 space-y-10 bg-white">
-            <h1 className="text-3xl border-b pb-4">
+            <h1 className="text-3xl border-b pb-4 font-semibold text-center">
               {items.length === 0
                 ? "Your amazon Basket is empty"
                 : "Shopping Basket"}
@@ -55,7 +58,7 @@ function Checkout() {
               <h2 className="whitespace-nowrap">
                 Subtotal ({items.length} items):{" "}
                 <span className="font-bold">
-                   <NumericFormat
+                  <NumericFormat
                     value={total}
                     displayType={"text"}
                     prefix={"£"}
@@ -63,15 +66,45 @@ function Checkout() {
                 </span>
               </h2>
 
-              <button
-                className={`button mt-2 w-[200px] ${
-                  session
-                    ? "button"
-                    : "from-gray-300 to-gray-500 border-gray-200 text-gray-300 cursor-not-allowed"
-                }`}
-              >
-                {!session ? "Sign in to checkout" : "Proceed to checkout"}
-              </button>
+              {session ? (
+                <PayPalScriptProvider
+                  options={{
+                    clientId:
+                      "ARVs66tYo0Z-uPltpDpEeVYhCJf15S8TkqpKQSGWybDyzXWpifYSBaxW4y6XT9bfdQKoL_e7T1xBE5MF",
+                    locale: "en_US",
+                  }}
+                >
+                  <PayPalButtons
+                    createOrder={async () => {
+                      try {
+                        const res = await axios({
+                          url: "http://localhost:3000/api/payment",
+                          method: "POST",
+                          headers: {
+                            "Content-Type": "application/json",
+                          },
+                        });
+                        return res.data.id;
+                      } catch (error) {
+                        console.log(error);
+                      }
+                    }}
+                    onCancel={(data) => console.log("Compra cancelada")}
+                    onApprove={async (data, actions) => {
+                      console.log(data);
+                      actions.order?.capture();
+                    }}
+                    style={{
+                      size: "large",
+                      color: "blue",
+                    }}
+                  />
+                </PayPalScriptProvider>
+              ) : (
+                <button className="button mt-2 from-gray-300 to-gray-500 border-gray-200 text-gray-300 cursor-not-allowed">
+                  Sign in to checkout.
+                </button>
+              )}
             </>
           )}
         </div>
