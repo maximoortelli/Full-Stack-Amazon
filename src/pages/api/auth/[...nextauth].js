@@ -1,6 +1,6 @@
-import NextAuth from "next-auth"
-import GoogleProvider from "next-auth/providers/google"
-import GithubProvider from "next-auth/providers/github"
+import NextAuth from "next-auth";
+import GoogleProvider from "next-auth/providers/google";
+import GithubProvider from "next-auth/providers/github";
 import FacebookProvider from "next-auth/providers/facebook";
 
 export const authOptions = {
@@ -20,6 +20,6 @@ export const authOptions = {
     }),
     // ...add more providers here
   ],
-}
+};
 
-export default NextAuth(authOptions)
+export default NextAuth(authOptions);

@@ -28,7 +28,7 @@
     ".next/types/**/*.ts",
     "**/*.ts",
     "**/*.tsx"
-, "src/pages/api/create-checkout-session.js", "src/pages/checkout.js"  ],
+, "src/pages/api/create-checkout-session.js", "src/pages/checkout.jsx"  ],
   "exclude": [
     "node_modules"
   ]

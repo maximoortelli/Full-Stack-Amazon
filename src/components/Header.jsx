@@ -26,7 +26,6 @@ function Header() {
             src="https://links.papareact.com/f90"
             width={110}
             height={20}
-            objectFit="contain"
             className="cursor-pointer ml-4 mr-6"
           />
         </div>
