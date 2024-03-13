@@ -66,7 +66,6 @@ function Checkout() {
                 </span>
               </h2>
 
-              {session ? (
                 <PayPalScriptProvider
                   options={{
                     clientId:
@@ -100,11 +99,6 @@ function Checkout() {
                     }}
                   />
                 </PayPalScriptProvider>
-              ) : (
-                <button className="button mt-2 from-gray-300 to-gray-500 border-gray-200 text-gray-300 cursor-not-allowed">
-                  Sign in to checkout.
-                </button>
-              )}
             </>
           )}
         </div>
