@@ -39,10 +39,12 @@
 
 > The integration of Redux has been essential to manage the state of the application centrally, facilitating the flow of data and interaction between components.
 
-# 💻✅ Deployment <a name="-deployed-"></a>
+# 💻✅ Deployment 
+<a name="deployment"></a>
 <a href="https://full-stack-amazon-rouge.vercel.app/" target="_blank">Click here to see the deployment</a>
 
-# 🛠 Built With <a name="built-with"></a>
+# 🛠 Built With 
+<a name="built-with"></a>
 
 # Tech Stack <a name="tech-stack"></a>
 
@@ -90,6 +92,7 @@
 </div>
 
 <div>
+   <a name="database"></a>
     <h2>Database</h2>
     <ul>
        <li>
@@ -99,7 +102,8 @@
     </ul>
 </div>
 
-## Getting Started
+## Getting Started 
+<a name="getting-started"></a>
 
 First, run the development server:
 
@@ -137,14 +141,16 @@ bun dev
   <img src="./public/media/kanban1.png" />
   <img src="./public/media/kanban2.png" />
 
-## 👥 Authors <a name="author"></a>
+## 👥 Authors 
+<a name="author"></a>
 
 👤 **Maximo Ortelli**
 
 - 💻GitHub: [@Maximo Ortelli](https://github.com/maximoortelli)
 - 💻LinkedIn: [Maximo Ortelli](https://www.linkedin.com/in/maximo-ortelli-rueda/)
 
-## 🔭 Future Features <a name="future-features"></a>
+## 🔭 Future Features 
+<a name="future-features"></a>
 
 - [x] **Complete the CRUD for places and reservations.**
 - [x] **Solid Principles**
