@@ -1,8 +1,7 @@
 <div align="center">
-   <h1><b>Full Stack Amazon</b></h1>
    <img src="./public/media/amazon_logo.svg" />
+   <h1>Full Stack Amazon</h1>
 </div>
-
 <hr>
 
  ## Kanban board
@@ -43,7 +42,7 @@ Additionally, I have leveraged the power of Firebase to enable real-time functio
 
 The integration of Redux has been essential to manage the state of the application centrally, facilitating the flow of data and interaction between components.
 
-## 🛠 Visit our deployed Link:<a>
+## 🛠 Visit my deployed Link:<a>
 https://full-stack-amazon-rouge.vercel.app/
 </a>
 
