@@ -9,7 +9,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Full Stack Amazon ](#-full-stack-amazon-)
+- [📖🛒 Full Stack Amazon ](#-full-stack-amazon-)
 - [✅ Deployed ](#-deployed-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#-tech-stack-)
@@ -29,7 +29,7 @@
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
 
-# 📖 Full Stack Amazon <a name="full-stack-amazon"></a>
+# 📖🛒 Full Stack Amazon <a name="full-stack-amazon"></a>
 
 In this new project, I have carried out an e-commerce identical to that of Amazon, taking advantage of key technologies such as JavaScript, Firebase, Next.js, NextAuth, Tailwind.css, Redux and Stripe. During this process, I have ensured an effective installation of Next.js, setting the necessary configurations to ensure optimal performance and a smooth user experience.
 
