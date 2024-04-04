@@ -2,7 +2,6 @@
    <img src="./public/media/amazon_logo.svg" style="width: 200px" />
    <h1>Full Stack Amazon</h1>
 </div>
-<hr>
 
  ## Kanban board
  - [Kanban board Project link](https://github.com/users/maximoortelli/projects/10/views/1)
@@ -14,10 +13,11 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Book a Hotel ](#-book-a-hotel-)
+- [📖 Full Stack Amazon ](#-full-stack-amazon-)
+- [✅ Deployed ](#-deployed-)
   - [🛠 Built With ](#-built-with-)
-    - [Tech Stack ](#tech-stack-)
-    - [Key Features ](#key-features-)
+    - [Tech Stack ](#-tech-stack-)
+    - [Key Features ](#-key-features-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -32,7 +32,7 @@
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
 
-# 📖 Full Stack Amazon <a name="about-project"></a>
+# 📖 Full Stack Amazon <a name="full-stack-amazon"></a>
 
 > In this new project, I have carried out an e-commerce identical to that of Amazon, taking advantage of key technologies such as JavaScript, Firebase, Next.js, NextAuth, Tailwind.css, Redux and Stripe. During this process, I have ensured an effective installation of Next.js, setting the necessary configurations to ensure optimal performance and a smooth user experience.
 
@@ -42,9 +42,9 @@ Additionally, I have leveraged the power of Firebase to enable real-time functio
 
 The integration of Redux has been essential to manage the state of the application centrally, facilitating the flow of data and interaction between components.
 
-## 🛠 Visit my deployed Link:<a>
-https://full-stack-amazon-rouge.vercel.app/
-</a>
+## 💻✅ Visit my deployed Link <a name="deployed"></a>:
+
+<a>https://full-stack-amazon-rouge.vercel.app/</a>
 
 ## 🛠 Built With <a name="built-with"></a>
 
