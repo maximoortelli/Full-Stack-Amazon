@@ -1,8 +1,8 @@
 <div align="center">
-   <img src="./public/media/amazon_logo.svg" style="width: 200px" />
-   <h1>Full Stack Amazon</h1>
+   <h1>🛒📊 Full Stack Amazon 📊🛒</h1>
 </div>
   <div align="center">
+    <img src="./public/media/amazon.jpg" />
     <img src="./public/media/amazon.jpg" />
   </div>
 
