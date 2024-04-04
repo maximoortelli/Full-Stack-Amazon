@@ -1,5 +1,5 @@
 <div align="center">
-   <img src="./public/media/amazon_logo.svg" />
+   <img src="./public/media/amazon_logo.svg" style="width: 200px" />
    <h1>Full Stack Amazon</h1>
 </div>
 <hr>
