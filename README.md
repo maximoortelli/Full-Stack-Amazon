@@ -1,4 +1,75 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
+   <h1><b>Full Stack Amazon</b></h1>
+   <img href="https://links.papareact.com/f90" />
+</div>
+
+<hr>
+
+ ## Kanban board
+ - [Kanban board Project link](https://github.com/users/maximoortelli/projects/10/views/1)
+
+ ### Complete State of Kanban board
+  <img src="./public/media/kanban1.png" />
+  <img src="./public/media/kanban2.png" />
+
+# 📗 Table of Contents
+
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 Book a Hotel ](#-book-a-hotel-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [💾 Database](#-database)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
+
+# 📖 Full Stack Amazon <a name="about-project"></a>
+
+> In this new project, I have carried out an e-commerce identical to that of Amazon, taking advantage of key technologies such as JavaScript, Firebase, Next.js, NextAuth, Tailwind.css, Redux and Stripe. During this process, I have ensured an effective installation of Next.js, setting the necessary configurations to ensure optimal performance and a smooth user experience.
+
+The NextAuth integration has been essential for authentication management, providing a strong and efficient security layer.
+
+Additionally, I have leveraged the power of Firebase to enable real-time functionality and cloud data storage, thereby contributing to the scalability and efficiency of the system. The implementation of Tailwind.css has allowed for an elegant and responsive design, significantly improving the user interface.
+
+The integration of Redux has been essential to manage the state of the application centrally, facilitating the flow of data and interaction between components.
+
+## 🛠 Visit our deployed Link:<a>
+https://full-stack-amazon-rouge.vercel.app/
+</a>
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+<div>
+     <h2>Client side</h2>
+     <a href="https://developer.mozilla.org/es/docs/Web/JavaScript">Javascript</a>
+     <a href="https://react.dev/">React</a>
+     <a href="https://redux.js.org/">Redux</a>
+     <a href="https://tailwindcss.com/">Tailwind.css</a>
+</div>
+<div>
+       <h2>Server side</h2>
+  <ul>
+       <li><a href="https://nextjs.org/">Next.js</a></li>
+  </ul>
+  </div>
+  <div>
+       <h2>Database</h2>
+  <ul>
+       <li><a href="https://www.postgresql.org/">Firebase</a></li>
+  </ul>
+</div>
 
 ## Getting Started
 
@@ -35,4 +106,41 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-blabla
+## 👥 Authors <a name="author"></a>
+
+👤 **Maximo Ortelli**
+
+- 💻GitHub: [@githubhandle](https://github.com/maximoortelli)
+- 💻LinkedIn: [LinkedIn](https://www.linkedin.com/in/maximo-ortelli-rueda/)
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **Complete the CRUD for places and reservations.**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/maximoortelli/Full-Stack-Amazon/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project please give it a star 😁🌟✨
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+We thank to [Amazon](https://www.amazon.com/ref=nav_logo) for the design.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
