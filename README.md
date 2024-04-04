@@ -1,3 +1,4 @@
+<a name="readme-top"></a>
 <div align="center">
    <h1>🛒📊 Full Stack Amazon 📊🛒</h1>
 </div>
@@ -43,27 +44,58 @@ The integration of Redux has been essential to manage the state of the applicati
 
 # 🛠 Built With <a name="built-with"></a>
 
-## Tech Stack <a name="tech-stack"></a>
+# Tech Stack <a name="tech-stack"></a>
 
 <div>
      <h2>Client side</h2>
-     <a href="https://developer.mozilla.org/es/docs/Web/JavaScript">Javascript</a>
-     <a href="https://react.dev/">React</a>
-     <a href="https://redux.js.org/">Redux</a>
-     <a href="https://tailwindcss.com/">Tailwind.css</a>
+     <ul>   
+     <li>
+        <img src="https://skillicons.dev/icons?i=react"/>
+        <a href="https://reactjs.org">React.js</a>
+     </li>
+     <li>
+        <img src="https://skillicons.dev/icons?i=js"/>
+        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a>
+     </li>
+     <li>
+       <img src="https://skillicons.dev/icons?i=nodejs"/>
+       <a href="https://nodejs.org/en">Node.js</a>
+     </li>
+      <li>
+       <img src="./src/assets/images/eslint.png" width="50"/>
+       <a href="https://eslint.org">ESLint</a>
+     </li>
+      <li>
+        <img src="https://skillicons.dev/icons?i=tailwindcss"/>
+        <a href="https://tailwindcss.com">Tailwind CSS</a>
+     </li>
+      <li>
+       <img src="https://skillicons.dev/icons?i=html"/>
+       <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a>
+     </li>
+  <li>
+    <img src="https://skillicons.dev/icons?i=css"/>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a>
+  </li>
 </div>
 
 <div>
        <h2>Server side</h2>
   <ul>
-       <li><a href="https://nextjs.org/">Next.js</a></li>
+       <li>
+          <img src="https://skillicons.dev/icons?i=nextjs"/>
+          <a href="https://nextjs.org/">Next.js</a>
+       </li>
   </ul>
 </div>
 
 <div>
     <h2>Database</h2>
     <ul>
-       <li><a href="https://www.postgresql.org/">Firebase</a></li>
+       <li>
+          <img src="https://skillicons.dev/icons?i=firebase"/>
+          <a href="https://firebase.google.com/?hl=es">Firebase</a>
+       </li>
     </ul>
 </div>
 
@@ -114,7 +146,12 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Complete the CRUD for places and reservations.**
+- [x] **Complete the CRUD for places and reservations.**
+- [x] **Solid Principles**
+- [x] **Linters run correctly**
+- [x] **The app run satisfactorily**
+- [x] **Jest & React Test Library**
+- [x] **Once the work is completed, the deployment will proceed.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
