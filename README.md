@@ -9,7 +9,7 @@
 
 - [📗 Table of Contents](#-table-of-contents)
 - [📖🛒 Full Stack Amazon ](#-full-stack-amazon-)
-- [✅ Deployed ](#-deployed-)
+- [✅ Deployment ](#-deployment-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#-tech-stack-)
     - [Key Features ](#-key-features-)
@@ -38,8 +38,8 @@ Additionally, I have leveraged the power of Firebase to enable real-time functio
 
 The integration of Redux has been essential to manage the state of the application centrally, facilitating the flow of data and interaction between components.
 
-# 💻✅ Deployed <a name="-deployed-"></a>
-<a>https://full-stack-amazon-rouge.vercel.app/</a>
+# 💻✅ Deployment <a name="-deployed-"></a>
+<a href="https://full-stack-amazon-rouge.vercel.app/" target="_blank">Click here to see the deployment</a>
 
 # 🛠 Built With <a name="built-with"></a>
 
