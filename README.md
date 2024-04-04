@@ -4,6 +4,9 @@
 </div>
 
 # Presentation:
+  <div align="center">
+    <img src="./public/media/amazon.jpg" />
+  </div>
 
 # 📗 Table of Contents
 
@@ -113,8 +116,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 👤 **Maximo Ortelli**
 
-- 💻GitHub: [@githubhandle](https://github.com/maximoortelli)
-- 💻LinkedIn: [LinkedIn](https://www.linkedin.com/in/maximo-ortelli-rueda/)
+- 💻GitHub: [@Maximo Ortelli](https://github.com/maximoortelli)
+- 💻LinkedIn: [Maximo Ortelli](https://www.linkedin.com/in/maximo-ortelli-rueda/)
 
 ## 🔭 Future Features <a name="future-features"></a>
 
