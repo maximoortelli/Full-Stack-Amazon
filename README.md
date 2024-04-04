@@ -3,7 +3,6 @@
 </div>
   <div align="center">
     <img src="./public/media/amazon.jpg" />
-    <img src="./public/media/amazon.jpg" />
   </div>
 
 # 📗 Table of Contents
