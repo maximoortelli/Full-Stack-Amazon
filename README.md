@@ -9,25 +9,24 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖🛒 Full Stack Amazon ](#-full-stack-amazon-)
-- [✅ Deployment ](#-deployment-)
-  - [🛠 Built With ](#-built-with-)
-    - [Tech Stack ](#-tech-stack-)
-    - [Key Features ](#-key-features-)
-  - [💻 Getting Started ](#-getting-started-)
+- [📖🛒 Full Stack Amazon](#-full-stack-amazon)
+- [✅ Deployment](#-deployment)
+  - [🛠 Built With](#-built-with)
+    - [Tech Stack](#tech-stack)
+  - [💻 Getting Started](#-getting-started)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
     - [Install](#install)
     - [💾 Database](#-database)
     - [Usage](#usage)
     - [Run tests](#run-tests)
-  - [📊 Kanban Board ](#-kanban-board-)
-  - [👥 Authors ](#-authors-)
-  - [🔭 Future Features ](#-future-features-)
-  - [🤝 Contributing ](#-contributing-)
-  - [⭐️ Show your support ](#️-show-your-support-)
-  - [🙏 Acknowledgments ](#-acknowledgments-)
-  - [📝 License ](#-license-)
+  - [📊 Kanban Board](#-kanban-board)
+  - [👥 Authors](#-authors)
+  - [🔭 Future Features](#-future-features)
+  - [🤝 Contributing](#-contributing)
+  - [⭐️ Show your support](#️-show-your-support)
+  - [🙏 Acknowledgments](#-acknowledgments)
+  - [📝 License](#-license)
 
 # 📖🛒 Full Stack Amazon <a name="full-stack-amazon"></a>
 
@@ -40,13 +39,18 @@
 > The integration of Redux has been essential to manage the state of the application centrally, facilitating the flow of data and interaction between components.
 
 # 💻✅ Deployment 
+
 <a name="deployment"></a>
+
 <a href="https://full-stack-amazon-rouge.vercel.app/" target="_blank">Click here to see the deployment</a>
 
 # 🛠 Built With 
+
 <a name="built-with"></a>
 
-# Tech Stack <a name="tech-stack"></a>
+# Tech Stack 
+
+<a name="tech-stack"></a>
 
 <div>
      <h2>Client side</h2>
@@ -92,7 +96,6 @@
 </div>
 
 <div>
-   <a name="database"></a>
     <h2>Database</h2>
     <ul>
        <li>
@@ -102,7 +105,7 @@
     </ul>
 </div>
 
-## Getting Started 
+# Getting Started 
 <a name="getting-started"></a>
 
 First, run the development server:
@@ -123,7 +126,7 @@ bun dev
 
 > This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+# Learn More
 
 > To learn more about Next.js, take a look at the following resources:
 
@@ -134,14 +137,14 @@ bun dev
 
 > Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-## Kanban board <a name="kanban-board"></a>
+# Kanban board <a name="kanban-board"></a>
  - [Kanban board Project link](https://github.com/users/maximoortelli/projects/10/views/1)
 
-## Complete State of Kanban board
+# Complete State of Kanban board
   <img src="./public/media/kanban1.png" />
   <img src="./public/media/kanban2.png" />
 
-## 👥 Authors 
+# 👥 Authors 
 <a name="author"></a>
 
 👤 **Maximo Ortelli**
@@ -149,7 +152,7 @@ bun dev
 - 💻GitHub: [@Maximo Ortelli](https://github.com/maximoortelli)
 - 💻LinkedIn: [Maximo Ortelli](https://www.linkedin.com/in/maximo-ortelli-rueda/)
 
-## 🔭 Future Features 
+# 🔭 Future Features 
 <a name="future-features"></a>
 
 - [x] **Complete the CRUD for places and reservations.**
@@ -161,7 +164,7 @@ bun dev
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🤝 Contributing <a name="contributing"></a>
+# 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
@@ -169,19 +172,19 @@ Feel free to check the [issues page](https://github.com/maximoortelli/Full-Stack
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## ⭐️ Show your support <a name="support"></a>
+# ⭐️ Show your support <a name="support"></a>
 
 If you like this project please give it a star 😁🌟✨
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
+# 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 We thank to [Amazon](https://www.amazon.com/ref=nav_logo) for the design.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 📝 License <a name="license"></a>
+# 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
 
