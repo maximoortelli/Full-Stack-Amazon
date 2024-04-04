@@ -31,13 +31,13 @@
 
 # 📖🛒 Full Stack Amazon <a name="full-stack-amazon"></a>
 
-In this new project, I have carried out an e-commerce identical to that of Amazon, taking advantage of key technologies such as JavaScript, Firebase, Next.js, NextAuth, Tailwind.css, Redux and Stripe. During this process, I have ensured an effective installation of Next.js, setting the necessary configurations to ensure optimal performance and a smooth user experience.
+> In this new project, I have carried out an e-commerce identical to that of Amazon, taking advantage of key technologies such as JavaScript, Firebase, Next.js, NextAuth, Tailwind.css, Redux and Stripe. During this process, I have ensured an effective installation of Next.js, setting the necessary configurations to ensure optimal performance and a smooth user experience.
 
-The NextAuth integration has been essential for authentication management, providing a strong and efficient security layer.
+> The NextAuth integration has been essential for authentication management, providing a strong and efficient security layer.
 
-Additionally, I have leveraged the power of Firebase to enable real-time functionality and cloud data storage, thereby contributing to the scalability and efficiency of the system. The implementation of Tailwind.css has allowed for an elegant and responsive design, significantly improving the user interface.
+> Additionally, I have leveraged the power of Firebase to enable real-time functionality and cloud data storage, thereby contributing to the scalability and efficiency of the system. The implementation of Tailwind.css has allowed for an elegant and responsive design, significantly improving the user interface.
 
-The integration of Redux has been essential to manage the state of the application centrally, facilitating the flow of data and interaction between components.
+> The integration of Redux has been essential to manage the state of the application centrally, facilitating the flow of data and interaction between components.
 
 # 💻✅ Deployment <a name="-deployed-"></a>
 <a href="https://full-stack-amazon-rouge.vercel.app/" target="_blank">Click here to see the deployment</a>
@@ -113,22 +113,22 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+> You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+> This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+> To learn more about Next.js, take a look at the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+> You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+> Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 ## Kanban board <a name="kanban-board"></a>
  - [Kanban board Project link](https://github.com/users/maximoortelli/projects/10/views/1)
