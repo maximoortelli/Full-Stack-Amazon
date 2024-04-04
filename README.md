@@ -3,12 +3,7 @@
    <h1>Full Stack Amazon</h1>
 </div>
 
- ## Kanban board
- - [Kanban board Project link](https://github.com/users/maximoortelli/projects/10/views/1)
-
- ### Complete State of Kanban board
-  <img src="./public/media/kanban1.png" />
-  <img src="./public/media/kanban2.png" />
+# Presentation:
 
 # 📗 Table of Contents
 
@@ -25,6 +20,7 @@
     - [💾 Database](#-database)
     - [Usage](#usage)
     - [Run tests](#run-tests)
+  - [📊 Kanban Board ](#-kanban-board-)
   - [👥 Authors ](#-authors-)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
@@ -34,7 +30,7 @@
 
 # 📖 Full Stack Amazon <a name="full-stack-amazon"></a>
 
-> In this new project, I have carried out an e-commerce identical to that of Amazon, taking advantage of key technologies such as JavaScript, Firebase, Next.js, NextAuth, Tailwind.css, Redux and Stripe. During this process, I have ensured an effective installation of Next.js, setting the necessary configurations to ensure optimal performance and a smooth user experience.
+In this new project, I have carried out an e-commerce identical to that of Amazon, taking advantage of key technologies such as JavaScript, Firebase, Next.js, NextAuth, Tailwind.css, Redux and Stripe. During this process, I have ensured an effective installation of Next.js, setting the necessary configurations to ensure optimal performance and a smooth user experience.
 
 The NextAuth integration has been essential for authentication management, providing a strong and efficient security layer.
 
@@ -42,13 +38,12 @@ Additionally, I have leveraged the power of Firebase to enable real-time functio
 
 The integration of Redux has been essential to manage the state of the application centrally, facilitating the flow of data and interaction between components.
 
-## 💻✅ Visit my deployed Link <a name="deployed"></a>:
-
+# 💻✅ Deployed <a name="-deployed-"></a>
 <a>https://full-stack-amazon-rouge.vercel.app/</a>
 
-## 🛠 Built With <a name="built-with"></a>
+# 🛠 Built With <a name="built-with"></a>
 
-### Tech Stack <a name="tech-stack"></a>
+## Tech Stack <a name="tech-stack"></a>
 
 <div>
      <h2>Client side</h2>
@@ -57,17 +52,19 @@ The integration of Redux has been essential to manage the state of the applicati
      <a href="https://redux.js.org/">Redux</a>
      <a href="https://tailwindcss.com/">Tailwind.css</a>
 </div>
+
 <div>
        <h2>Server side</h2>
   <ul>
        <li><a href="https://nextjs.org/">Next.js</a></li>
   </ul>
-  </div>
-  <div>
-       <h2>Database</h2>
-  <ul>
+</div>
+
+<div>
+    <h2>Database</h2>
+    <ul>
        <li><a href="https://www.postgresql.org/">Firebase</a></li>
-  </ul>
+    </ul>
 </div>
 
 ## Getting Started
@@ -104,6 +101,13 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Kanban board <a name="kanban-board"></a>
+ - [Kanban board Project link](https://github.com/users/maximoortelli/projects/10/views/1)
+
+## Complete State of Kanban board
+  <img src="./public/media/kanban1.png" />
+  <img src="./public/media/kanban2.png" />
 
 ## 👥 Authors <a name="author"></a>
 
