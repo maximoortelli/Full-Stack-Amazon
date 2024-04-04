@@ -62,8 +62,8 @@ The integration of Redux has been essential to manage the state of the applicati
        <a href="https://nodejs.org/en">Node.js</a>
      </li>
       <li>
-       <img src="./src/assets/images/eslint.png" width="50"/>
-       <a href="https://eslint.org">ESLint</a>
+       <img src="./public/media/eslint.png" width="50"/>
+       <a href="https://eslint.org">Eslint</a>
      </li>
       <li>
         <img src="https://skillicons.dev/icons?i=tailwindcss"/>
