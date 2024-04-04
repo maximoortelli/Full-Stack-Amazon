@@ -1,6 +1,6 @@
 <div align="center">
    <h1><b>Full Stack Amazon</b></h1>
-   <img href="https://links.papareact.com/f90" />
+   <img src="./public/media/amazon_logo.svg" />
 </div>
 
 <hr>
